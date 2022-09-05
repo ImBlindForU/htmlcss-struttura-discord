@@ -1,5 +1,47 @@
+/* reset */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/* common */
+
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    /* debug */
+    min-height: 100px;
+    background-color: aqua;
+}
+.flex-container{
+    display: flex;
+
+    justify-content: space-around;
+    border: 2px dashed black;
+    width: 70%;
+    background-color: orange;
+}
+
+
+/* header */
+
+.logo{
+    border: 2px dashed black;
+}
+
+.central-section{
+    border: 2px dashed black;
+}
+
+.login{
+    border: 2px dashed black;
+}
+
+
+/* main */
+
