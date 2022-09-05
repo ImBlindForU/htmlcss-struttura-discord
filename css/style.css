@@ -40,20 +40,34 @@
     flex-direction: row-reverse;
 }
 
+.end{
+    text-align: end;
+}
+
+.centre{
+    text-align: center;
+}
+
 /* header */
 
 .logo{
+    width: 20%;
     border: 2px dashed black;
 }
 
 .central-section{
+    width: 60%;
     border: 2px dashed black;
 }
 
 .login{
+    width: 20%;
     border: 2px dashed black;
 }
 
+.central-section span{
+    margin-right: 1em;
+}
 
 /* main */
 
