@@ -81,8 +81,7 @@
 
 .flex{
     display: flex;
-    justify-content: flex-start;
-    align-items: calc(100% / 2);
+
     width: 70%;
     min-height: 23em;
     background-color: red;
@@ -90,7 +89,7 @@
     margin-bottom: 3em;
 }
 
-image{
+.image{
     width: 60%;
     background-color: lightskyblue;
     border: 2px dashed black;
@@ -103,3 +102,14 @@ image{
 
 }
 
+.grey{
+    background-color: lightgrey;
+}
+
+.flex-green{
+    width: 70%;
+    height: 50rem;
+    background-color: green;
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
